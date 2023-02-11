@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TSA Final Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class = "background"><center>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html" title = "OUT OF THIS WORLD" id = "logoword"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8qwsotkxna092HpN2tfXKhALXQXwEmPmSRO_FH_QA2g&s" width = 40% >OOTW</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="touring.html">Touring</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="training.html" style="font-weight:bold">Training</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>        
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="main-content">
+    <div class="training-courses">
+        <div class="outer-shell">
+            <div id="shuttle-training" class="training-sect">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtKQPyWcgZmywsdsbRaDdckclBi22KaZ4S0JQ7YdAIcFHmkBz-M38UeSwa9peg2C53mc:https://th-thumbnailer.cdn-si-edu.com/ySVQfJ6YY-jYl-IsvW2gwv5ZBng%3D/fit-in/1600x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Downey-Shuttle-Mockup-631.jpg&usqp=CAU" alt="space-simulation-training" id="shuttle-img">
+                <h2>Space Shuttle Simulation Training</h2>
+                <p>Outerspace training in a full scale mockup simulator.</p>
+            </div>
+        </div>
+        <div class="outer-shell">
+            <div id="astromomy-course" class="training-sect">
+                <img src="https://cdn.mos.cms.futurecdn.net/UqKrHFjGaYQ3Fi9rACt6S9.jpg" width="350px" height="150px">
+                <h2>Astronomy Course</h2>
+                <p>The study of the stars, galaxies, and cosmology to assist in navigation.</p>
+            </div>
+        </div>
+        <div class="outer-shell">
+            <div id="flight-sim" class="training-sect">
+                <img src="http://www.nasa.gov/sites/default/files/thumbnails/image/acd19-0059-019.jpg" width="350px" height="180px">
+                <h2>Flight Simulator</h2>
+                <p>Simulates the flight of an Aerospace vehicle in cases of emergency.</p>
+            </div>
+        </div>
+        <div>
+            <div id="orbital-mechanics" class="training-sect">
+                <img src="https://cdn.theatlantic.com/thumbor/aC_gHx4zxVyLs2i-BWZ8NR0VzhQ=/98x140:1328x1062/1200x900/media/img/mt/2019/11/jsc2013e091181_1/original.png" width="350px" height="180px">
+                <h2>Water Training</h2>
+                <p>The closest thing that can simulate a low gravity environment.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div style="color:white;">
+    <br>
+    <h3>If you'd like to apply for training, <br>please fill out the form below with your email and why you're applying.</h3>
+</div>
+
+<form>
+<div style="width:50%;">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label"></label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label"></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type here..."></textarea>
+</div>
+</div>
+<button type="submit" class="training_button">Enter</button>
+</form>
+<br>
+<br>
+
+
+  
+<script type="module">
+  import { Toast } from 'bootstrap.esm.min.js'
+
+  Array.from(document.querySelectorAll('.toast'))
+    .forEach(toastNode => new Toast(toastNode))
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+<source src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></source>
+
+
+
+</center>
+</body>
+
+</html>
